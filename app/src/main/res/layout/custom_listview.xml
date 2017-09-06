@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_login"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp">
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/sublabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Subject : "
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/txtId" />
+
+    <TextView
+        android:id="@+id/txtSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="subject"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/sublabel" />
+
+    <TextView
+        android:id="@+id/aboutlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtId"
+        android:text="About : "
+        android:textColor="#000000"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/txtAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="about"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/sublabel"
+        android:layout_toRightOf="@+id/aboutlabel"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timelabel"
+        android:text="Time  : "
+        android:layout_below="@id/aboutlabel"
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTime"
+        android:text="time"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_below="@+id/txtAbout"
+        android:layout_toRightOf="@+id/timelabel"/>
+</RelativeLayout>

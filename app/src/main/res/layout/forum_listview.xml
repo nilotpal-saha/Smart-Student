@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_login"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp">
+
+    <TextView
+        android:id="@+id/txtForumId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtForumQuery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="query"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/txtForumId" />
+    <TextView
+        android:id="@+id/txtForumAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="answer"
+        android:layout_below="@+id/txtForumId"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginTop="6dp" />
+</RelativeLayout>
